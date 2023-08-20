@@ -1,0 +1,29 @@
+# Arquivos e diretórios a serem ignorados pelo Git
+
+# Arquivos de configuração do sistema
+.DS_Store
+Thumbs.db
+
+# Dependências instaladas via npm ou yarn
+/node_modules
+
+# Arquivo de chaves de ambiente
+.env
+
+# Arquivos de log
+*.log
+
+# Cache de VS Code
+.vscode/
+
+# Cache do IntelliJ IDEA
+.idea/
+
+# Arquivos de build e distribuição
+/dist
+/build
+/out
+
+# Arquivos temporários
+.tmp
+.temp
